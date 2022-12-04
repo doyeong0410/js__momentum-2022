@@ -1,0 +1,49 @@
+#box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clock , #todays, #weather{
+  position: absolute;
+  text-align: center;
+  background-color: var(--bgc);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+#clock {
+  margin-top: 670px;
+  margin-right: 240px;
+  font-size: 75px;
+  font-weight: 600;
+  width: 310px;
+  box-sizing: border-box;
+}
+
+#todays {
+  margin-top: 400px;
+  margin-right: 240px;
+  width: 290px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#weather {
+  margin-top: 450px;
+  margin-left: 340px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#quote {
+  position: absolute;
+  margin-top: 180px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#quote last-child {
+  font-size: 20px;
+}

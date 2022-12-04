@@ -1,0 +1,83 @@
+#login-form button {
+  font-weight: 600;
+  border-radius: 7px;
+  color: var(--fc);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#login-form, #todo-form, #greeting, #todo-list {
+  position: absolute;
+}
+
+#login-form, #todo-form {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#login-form {
+  margin-top: 700px;
+  margin-left: 339px;
+  background-color: var(--bgc);
+  border-radius: 15px;
+}
+
+#todo-form {
+  margin-top: 1051px;
+  background-color: var(--bgc);
+  border-radius: 15px;
+}
+
+#greeting {
+  margin-top: 890px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#todo-list {
+  height: 250px;
+  width: 530px;
+  overflow: auto;
+  font-weight: 600;
+  font-size: 50px;
+  margin-top: 1350px;
+  column-count: 2;
+  background-color: var(--bgc);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#todo-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+#todo-list button {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-weight: 600;
+  border-radius: 7px;
+  color: var(--fc);
+  background-color: #8a8a8a00;
+}
+
+#todo-list::-webkit-scrollbar {
+  height: 10px;
+  background: #8a8a8a;
+  border-radius: 5px;
+}
+
+#todo-list::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+/* #bgbox {
+  position: absolute;
+  margin-top: 900px;
+  width: 600px;
+  height: 800px;
+  background-color: var(--bgc);
+  border-radius: 15px;
+} */
